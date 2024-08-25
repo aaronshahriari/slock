@@ -18,11 +18,6 @@ static const int failcount = 7;
 /* command to be executed after [failcount] failed password attempts */
 static const char *failcommand = "shutdown -h now";
 
-/*Enable blur*/
-#define BLUR
-/*Set blur radius*/
-static const int blurRadius=5;
-/*Enable Pixelation*/
-//#define PIXELATION
-/*Set pixelation radius*/
-static const int pixelSize=0;
+/*Set Blur radius*/
+static const int blurRadius=0;
+static const int pixelSize=5;
