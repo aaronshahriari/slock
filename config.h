@@ -17,3 +17,6 @@ static const int failcount = 7;
 
 /* command to be executed after [failcount] failed password attempts */
 static const char *failcommand = "shutdown -h now";
+
+/* Background image path, should be available to the user above */
+static const char* background_image = "/home/aaronshahriari/.local/bin/scripts/wallpapers/i3lock.png";
