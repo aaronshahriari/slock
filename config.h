@@ -26,4 +26,4 @@ static const int failcount = 7;
 static const char *failcommand = "shutdown -h now";
 
 /* Background image path, should be available to the user above */
-static const char* background_image = "/usr/share/pixmaps/lockscreen.jpg";
+static const char* background_image = "/usr/share/backgrounds/lockscreen.jpg";
